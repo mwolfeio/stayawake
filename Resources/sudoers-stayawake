@@ -1,0 +1,2 @@
+# Lets StayAwake flip sleep settings without a password. Only these exact pmset commands.
+__USER__ ALL=(root) NOPASSWD: /usr/bin/pmset -a disablesleep 0, /usr/bin/pmset -a disablesleep 1, /usr/bin/pmset -a sleep 0, /usr/bin/pmset -a sleep 1, /usr/bin/pmset -a displaysleep 0, /usr/bin/pmset -b displaysleep 2, /usr/bin/pmset -c displaysleep 10
